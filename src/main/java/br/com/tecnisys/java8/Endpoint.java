@@ -8,6 +8,7 @@ public class Endpoint {
 
     @GetMapping
     public String versao(){
-        return System.getProperty("java.runtime.version"+"teste");
+        return new String("rebimboca da parafuseta");
+        //return System.getProperty("java.runtime.version"+"teste");
     }
 }
